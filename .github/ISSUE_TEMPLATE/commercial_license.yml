@@ -1,0 +1,32 @@
+name: Commercial / Enterprise License Inquiry
+description: Request a proprietary commercial license agreement from Erkki Laine (exempt from AGPL-3.0 copyleft).
+title: "[LICENSE]: Enterprise Commercial Inquiry - "
+labels: ["licensing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This repository is dual-licensed by **Erkki Laine** under **AGPL-3.0** and a **Commercial License**. Use this form to initiate a commercial licensing discussion for closed-source or proprietary enterprise deployment.
+  - type: input
+    id: organization
+    attributes:
+      label: Organization / Legal Entity Name
+    validations:
+      required: true
+  - type: dropdown
+    id: deployment_scope
+    attributes:
+      label: Intended Deployment Model
+      options:
+        - Internal Enterprise ITSM (Closed-Source / Proprietary)
+        - Managed Service Provider (MSP) / Multi-Tenant SaaS
+        - Commercial Consulting / OEM Integration
+    validations:
+      required: true
+  - type: textarea
+    id: contact_details
+    attributes:
+      label: Contact Email & Scope Notes
+      description: Provide a business email address and estimated instance/node count.
+    validations:
+      required: true
