@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Official Merch & Governance Apparel
+    url: https://viti-labs.myspreadshop.fi
+    about: Support independent deterministic governance research and grab official BIGF / governance gear.
+  - name: Core Compiler & Browser Studio
+    url: https://erkkilaine.github.io/bigf-gate-studio/
+    about: Compile canonical BIA Anchor Specifications and Rego v1 policies directly in your browser.
