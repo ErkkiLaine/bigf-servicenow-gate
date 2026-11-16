@@ -1,0 +1,29 @@
+COPYRIGHT AND DUAL-LICENSING NOTICE
+Copyright (c) 2026 Erkki Laine. All Rights Reserved.
+
+The Business Impact Governance Framework (BIGF) and the software contained
+in this repository ("BIGF Runtime Gate for ServiceNow") are the sole
+intellectual property of Erkki Laine (Zenodo DOI: 10.5281/zenodo.24215776).
+
+This software is strictly dual-licensed:
+1. Open-Source License: GNU Affero General Public License v3.0 (AGPL-3.0).
+   Under AGPL-3.0, if you run a modified or unmodified version of this software
+   over a network (including internal enterprise ITSM platforms or SaaS
+   offerings) or distribute derivative works, you MUST make the complete
+   corresponding source code available to all users under AGPL-3.0 and retain
+   all copyright and attribution notices naming Erkki Laine.
+2. Commercial License: Organizations wishing to deploy, embed, or offer this
+   software in proprietary or closed-source environments without AGPL-3.0
+   copyleft obligations must obtain a written Commercial License Agreement
+   directly from Erkki Laine prior to deployment.
+
+Unauthorized commercial exploitation, white-labeling, or removal of copyright
+notices constitutes copyright infringement.
+
+---------------------------------------------------------------------------
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
