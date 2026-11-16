@@ -1,0 +1,25 @@
+name: Runtime Gate Bug Report
+description: Report a deterministic evaluation, RFC 8785 JCS, or ServiceNow rollback persistence issue.
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: servicenow_release
+    attributes:
+      label: ServiceNow Release & Scope
+      placeholder: "e.g., Xanadu / Yokohama, Global or Scoped"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the expected vs. actual gate decision (200 AUTHORIZED vs. 403 HARD HALT).
+    validations:
+      required: true
+  - type: textarea
+    id: cdr_log
+    attributes:
+      label: Canonical Decision Record (CDR) / Syslog Output
+      description: Paste the sanitized CDR JSON or error message (remove internal endpoints).
+      render: json
